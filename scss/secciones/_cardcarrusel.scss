@@ -1,0 +1,24 @@
+.carousel-item img{
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.card{
+    width: 18rem;
+    margin: auto;
+}
+
+
+#carrusel-card{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10px;
+}
+
+.videodeskate{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}

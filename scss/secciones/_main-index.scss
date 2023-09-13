@@ -1,0 +1,53 @@
+#main-index{
+    display: grid; 
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 1.6fr 1.1fr; 
+    
+    grid-template-areas: 
+    "texto-centrado"
+    "parrafoskate"
+    "videodeskate"; 
+}
+
+.texto-centrado{
+    grid-area: texto-centrado;
+}
+
+.parrafoskate{
+    grid-area: parrafoskate;
+}
+
+.videodeskate{
+    grid-area: videodeskate;
+}
+
+.texto-centrado {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Titulo";
+    position: relative;
+    left: 0, 5px;
+    top: 20px;
+    text-decoration: underline;
+}
+
+.parrafoskate {
+
+    font-family: "Titulo";
+    padding: 5px 100px;
+    position: relative;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    top: 40px;
+    word-spacing: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+.parrafoskate p {
+    margin-bottom: 20px;
+}
+
