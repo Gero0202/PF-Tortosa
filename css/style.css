@@ -54,6 +54,10 @@ nav a {
   padding-right: 10px;
 }
 
+.nav a:hover {
+  font-family: "Times New Roman", Times, serif;
+}
+
 #main-index {
   display: grid;
   grid-template-columns: 1fr;
