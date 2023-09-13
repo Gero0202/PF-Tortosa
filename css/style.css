@@ -11,6 +11,7 @@
 }
 
 /*SECCIONES*/
+/*BARRA DE NAVEGACION*/
 html {
   height: 100%;
 }
@@ -58,6 +59,7 @@ nav a {
   font-family: "Times New Roman", Times, serif;
 }
 
+/*GRID*/
 #main-index {
   display: grid;
   grid-template-columns: 1fr;
@@ -65,6 +67,7 @@ nav a {
   grid-template-areas: "texto-centrado" "parrafoskate" "videodeskate";
 }
 
+/*TEXTO*/
 .texto-centrado {
   grid-area: texto-centrado;
 }
@@ -104,6 +107,7 @@ nav a {
   margin-bottom: 20px;
 }
 
+/*CONTACTO*/
 .contacto {
   font-family: "Titulo";
   padding: 20px;
@@ -121,6 +125,7 @@ nav a {
   text-align: top;
 }
 
+/*CARRUSEL Y CARDS*/
 .carousel-item img {
   width: 40%;
   margin: auto;
@@ -149,6 +154,7 @@ nav a {
   box-shadow: 0px 0px 17px 5px #000000;
 }
 
+/*FOOTER*/
 .footer {
   min-height: 100%;
   text-align: center;
@@ -167,6 +173,7 @@ nav a {
   text-decoration: none;
 }
 
+/*MEDIA QUERI*/
 @media (max-width: 786px) {
   header {
     display: flex;

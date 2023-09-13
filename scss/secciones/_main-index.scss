@@ -1,3 +1,4 @@
+/*GRID*/
 #main-index{
     display: grid; 
     grid-template-columns: 1fr;
@@ -9,6 +10,7 @@
     "videodeskate"; 
 }
 
+/*TEXTO*/
 .texto-centrado{
     grid-area: texto-centrado;
 }
