@@ -109,6 +109,8 @@ nav a {
 
 /*CONTACTO*/
 .contacto {
+  display: flex;
+  justify-content: space-around;
   font-family: "Titulo";
   padding: 20px;
   position: relative;
