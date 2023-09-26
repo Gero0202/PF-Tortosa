@@ -22,6 +22,12 @@
 
 /*MEDIA QUERI*/
 
+@media (max-width: 1265px ){
+   .Imagenesdesurf{
+    display: flex;
+    flex-direction: column-reverse;
+   }
+}
 @media (max-width: 786px){
     header{
         display: flex;

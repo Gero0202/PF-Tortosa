@@ -99,7 +99,7 @@ nav a {
   flex-direction: column;
   top: 40px;
   word-spacing: 10px;
-  margin: 10px;
+  margin: 24px;
   text-align: center;
 }
 
@@ -136,13 +136,21 @@ nav a {
 
 .card {
   width: 18rem;
-  margin: auto;
+  margin: 46px 100px 60px 840px;
+  padding: 0px 0px 0px 0px;
 }
 
 #carrusel-card {
   display: flex;
   flex-direction: column-reverse;
   padding: 10px;
+}
+
+.imagendeskate {
+  margin: -35px;
+  padding: 0px 0px 100px 0px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .videodeskate {
@@ -153,6 +161,21 @@ nav a {
 
 .card:hover {
   cursor: pointer;
+  box-shadow: 0px 0px 17px 5px #000000;
+}
+
+.imagendeskate img:hover {
+  box-shadow: 0px 0px 17px 5px #000000;
+}
+
+.Imagenesdesurf {
+  padding: 20px 20px 20px 20px;
+  margin: 20px 0px 20px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Imagenesdesurf img:hover {
   box-shadow: 0px 0px 17px 5px #000000;
 }
 
@@ -176,6 +199,12 @@ nav a {
 }
 
 /*MEDIA QUERI*/
+@media (max-width: 1265px) {
+  .Imagenesdesurf {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
 @media (max-width: 786px) {
   header {
     display: flex;
