@@ -76,8 +76,10 @@ nav a {
   grid-area: parrafoskate;
 }
 
-.videodeskate {
-  grid-area: videodeskate;
+.imagendeskate img {
+  grid-area: imagendeskate;
+  width: auto;
+  padding: 50px;
 }
 
 .texto-centrado {
@@ -101,6 +103,7 @@ nav a {
   word-spacing: 10px;
   margin: 24px;
   text-align: center;
+  padding: 0px 0px 100px 0px;
 }
 
 .parrafoskate p {
@@ -136,8 +139,8 @@ nav a {
 
 .card {
   width: 18rem;
-  margin: 46px 100px 60px 840px;
-  padding: 0px 0px 0px 0px;
+  margin: auto;
+  padding: 0px 0px 80px 0px;
 }
 
 #carrusel-card {
@@ -181,7 +184,7 @@ nav a {
 
 /*FOOTER*/
 .footer {
-  min-height: 100%;
+  min-height: 50%;
   text-align: center;
   align-items: center;
   padding: 10px;
